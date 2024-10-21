@@ -201,7 +201,7 @@
                     id="length"
                     type="number"
                     [min]="passwordOptions.minLength"
-                    max="128"
+                    max="130"
                     [(ngModel)]="passwordOptions.length"
                     (blur)="savePasswordOptions()"
                   />
@@ -209,7 +209,7 @@
                     id="lengthRange"
                     type="range"
                     [min]="passwordOptions.minLength"
-                    max="128"
+                    max="130"
                     step="1"
                     [(ngModel)]="passwordOptions.length"
                     (change)="sliderChanged()"
